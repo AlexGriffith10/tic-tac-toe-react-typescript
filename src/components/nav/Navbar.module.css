@@ -1,0 +1,26 @@
+.NavMenu {
+    display: flex;
+    align-items: center;
+}
+
+.NavLink {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    &.active {
+        color: #4d4dff;
+    }
+}
+
+.Nav {
+    background: #8E7CC3;
+    height: 85px;
+    display: flex;
+    padding: 0 0 0 15px;
+    z-index: 12;
+    width: 100%
+}
